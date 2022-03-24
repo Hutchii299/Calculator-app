@@ -5,9 +5,6 @@ header {
   padding: 1rem 0;
   width: 100%;
 
-  @include respond(phone) {
-  }
-
   & h1 {
     font-size: 2.8rem;
     line-height: 1;
@@ -29,7 +26,7 @@ header {
 .theme {
   &__selectors {
     display: grid;
-    gap: 0.3rem 0;
+    gap: 1rem 0;
     justify-items: center;
     justify-content: center;
     align-items: center;
@@ -77,8 +74,8 @@ header {
     border: none;
     appearance: none;
     -webkit-appearance: none;
-    height: 0.8rem;
-    width: 0.8rem;
+    height: 1.5rem;
+    width: 1.5rem;
     border-radius: 50%;
     line-height: 1;
     display: inline-block;
@@ -86,8 +83,8 @@ header {
     transition: all 0.2s;
 
     @include respond(phone) {
-      height: 1.1rem;
-      width: 1.1rem;
+      height: 1.6rem;
+      width: 1.6rem;
     }
 
     cursor: pointer;
@@ -117,10 +114,14 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 2rem;
+  padding: 3rem;
   @include border-radius;
   width: 100%;
   transition: all 0.2s;
+
+  @include respond(phone) {
+    padding: 2rem;
+  }
 }
 
 .keys {
@@ -131,7 +132,11 @@ header {
   grid-template-rows: repeat(5, 1fr);
   width: 100%;
   height: 100%;
-  max-height: 45rem;
+  // max-height: 45rem;
+
+  @include respond(phone) {
+    max-height: 80rem;
+  }
   @include border-radius;
 }
 
@@ -148,11 +153,11 @@ header {
   }
 
   &-normal {
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-family: inherit;
     line-height: 1;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 
     @include respond(phone) {
@@ -162,6 +167,7 @@ header {
   }
 
   &-shift {
+    font-size: 2rem;
     font-family: inherit;
     @include respond(phone) {
       font-size: 60%;
@@ -175,6 +181,7 @@ header {
   }
 
   &-enter {
+    font-size: 3.5rem;
     grid-column: 3/-1;
     @include respond(phone) {
       font-size: 60%;
