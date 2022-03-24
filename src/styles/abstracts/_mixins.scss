@@ -1,0 +1,19 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 26.25em) {
+      @content;
+    } //<=420 px
+  }
+}
+
+@mixin calculator-width {
+  width: 37.5rem;
+
+  @include respond(phone) {
+    width: 32.5rem;
+  }
+}
+
+@mixin border-radius {
+  border-radius: 1rem;
+}

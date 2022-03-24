@@ -1,0 +1,75 @@
+.keypad-background-color-1 {
+  background-color: $color-main-keypad-background;
+}
+.keypad-background-color-2 {
+  background-color: $color-alt1-keypad-background;
+}
+.keypad-background-color-3 {
+  background-color: $color-alt2-keypad-background;
+}
+
+.screen-background-color-1 {
+  background-color: $color-main-screen-background;
+}
+
+.screen-background-color-2 {
+  background-color: $color-alt1-screen-background;
+}
+
+.screen-background-color-3 {
+  background-color: $color-alt2-screen-background;
+}
+
+.key-normal-colors-1 {
+  background-color: $color-main-key-background;
+  box-shadow: 0 0.3rem 0rem $color-main-key-shadow;
+  color: $color-main-text-dark;
+}
+
+.key-normal-colors-2 {
+  background-color: $color-alt1-key-background;
+  box-shadow: 0 0.3rem 0rem $color-alt1-key-shadow;
+  color: $color-alt1-text-dark;
+}
+
+.key-normal-colors-3 {
+  background-color: $color-alt2-key-background;
+  box-shadow: 0 0.3rem 0rem $color-alt2-key-shadow;
+  color: $color-alt2-text-yellow;
+}
+
+.key-shift-colors-1 {
+  background-color: $color-main-shift-background;
+  box-shadow: 0 0.3rem 0rem $color-main-shift-shadow;
+  color: $color-main-text-white;
+}
+
+.key-shift-colors-2 {
+  background-color: $color-alt1-shift-background;
+  box-shadow: 0 0.3rem 0rem $color-alt1-shift-shadow;
+  color: $color-alt1-text-white;
+}
+
+.key-shift-colors-3 {
+  background-color: $color-alt2-shift-background;
+  box-shadow: 0 0.3rem 0rem $color-alt1-shift-shadow;
+  color: $color-alt2-text-white;
+}
+
+.key-enter-colors-1 {
+  background-color: $color-main-equal-background;
+  box-shadow: 0 0.3rem 0rem $color-main-equal-shadow;
+  color: $color-main-text-white;
+}
+
+.key-enter-colors-2 {
+  background-color: $color-alt1-equal-background;
+  box-shadow: 0 0.3rem 0rem $color-alt1-equal-shadow;
+  color: $color-alt1-text-white;
+}
+
+.key-enter-colors-3 {
+  background-color: $color-alt2-equal-background;
+  box-shadow: 0 0.3rem 0rem $color-alt2-equal-shadow;
+  color: $color-alt2-text-dark;
+}
