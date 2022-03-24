@@ -190,6 +190,7 @@ header {
 .theme__checkbox {
   border: none;
   appearance: none;
+  -webkit-appearance: none;
   height: 0.8rem;
   width: 0.8rem;
   border-radius: 50%;
